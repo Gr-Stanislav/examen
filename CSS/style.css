@@ -338,6 +338,63 @@ li {
 /* END Livello -------------- */
 
 
+/* DOWNLOAD ------ */
+.download {
+    width: 100%;
+    text-align: center;
+    background-color: #F5F6F7;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.download h2 {
+    color: #373737;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 30px; 
+}
+
+.download p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.apple, .android {
+    margin-left: 20px;
+    width: 20%;
+    max-width: 282px;
+    height: 55px;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.apple img {
+    width: 100%;
+    height: 100%;
+}
+
+.android img {
+    width: 100%;
+    height: 100%;
+}
+
+/* END DOWNLOAD------ */
+
+/* FOOTER -------- */
+/* FOOTER ------- */
+
+
 
 
 
