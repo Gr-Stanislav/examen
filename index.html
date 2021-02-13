@@ -10,17 +10,19 @@
     <title>Photo</title>
 </head>
 <body>
-    <header>
+    <header id="start">
         <div class="container">
             <div class="header_menu">
                 <ul>
-                    <li>HOME</li>
-                    <li>PHOTOAPP</li>
+                    <a href="#HOME"><li>HOME</li></a>
+                    <a href="#PHOTOAPP"><li>PHOTOAPP</li></a>
                     <li><img src="/images/Livello 2.svg" alt="logo" class="logo_header"></li>
-                    <li>DESIGN</li>
-                    <li>DOWNLOAD</li>
+                    <a href="#DESIGN"><li>DESIGN</li></a>
+                    <a href="#download"><li>DOWNLOAD</li></a>
                 </ul>
             </div>
+        
+            
 
 
             <div class="hidden_block">
@@ -55,7 +57,7 @@
         </div>
     </header>
 
-    <div class="hend_phone">
+    <div class="hend_phone" id="HOME">
         
         <div class="hend_phone_left">
             <h2>RAPPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h2>
@@ -73,7 +75,7 @@
         
     </div>
 
-    <div class="DESIGN">
+    <div class="DESIGN" id="DESIGN">
         
             <div class="design_photo">
                 <img src="./images/design_photo.svg" alt="phone">
@@ -97,7 +99,7 @@
         
     </div>
 
-    <div class="community">
+    <div class="community" id="PHOTOAPP">
         <div class="container1">
             <div class="block_buttom">
                 <button><img src="/images/left-st.png" alt="left"></button>
@@ -134,7 +136,7 @@
 
     </div>
 
-    <div class="download">
+    <div class="download" id="download">
         <h2>DOWNLOAD IT</h2>
         <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.</p>
 
@@ -150,7 +152,20 @@
     </div>
 
     <footer>
-        
+        <div class="contact">
+            <ul>
+                <li>CREDITS</li>
+                <li class="border">PRIVACY</li>
+                <li>OUR TEAMS</li>
+            </ul>
+
+            <p class="contact_text">Copyright by phototime - all right reserved</p>
+        </div>
+
+        <div class="logo_footer">
+            <a href="#start"><img src="/images/logoGreen.png" alt="logoGreen"></a>
+        </div>
+
     </footer>
 </body>
 </html>
