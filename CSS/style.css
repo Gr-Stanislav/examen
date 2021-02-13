@@ -205,6 +205,7 @@ li {
     display: inline-block;
     padding-left: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .design_photo img {
@@ -212,9 +213,129 @@ li {
     min-width: 254px;
     height: 100%;
 }
-
-
 /* END DESIGN-------- */
+
+
+/* COMMYNITY --------- */
+.community {
+    width: 100%;
+    background-color: #F5F6F7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container1 {   
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block_buttom {
+    margin-top: 40px;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.block_buttom button {
+    border: none;
+    background: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.block_image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.photo1 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.photo1 h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+.photo1 p {
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 50%;
+    text-align: center;
+}
+.photo2 {
+    background-image: url('../images/Livello\ 5.png');
+}
+
+.photo3 {
+    background-image: url('../images/Livello\ 6.png');
+}
+
+.photo1, .photo2, .photo3 {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    min-width: 300px;
+    height: 240px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+/* END COMMYNITY--------- */
+
+
+/* Livello-------------- */
+.Livello {
+    background-image: url('../images/fon-Livello.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+}
+
+.Livello h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-bottom: 28px;
+}
+
+.forma {
+    width: 100%;
+    text-align: center;
+}
+
+#email {
+    display: inline-block;
+    width: 20%;
+    max-width: 300px;
+    min-width: 250px;
+    height: 60px;
+    margin: 0 auto;
+    margin-right: 0;
+    border: none;
+    padding-left: 2%;
+}
+
+#submit {
+    width: 60px;
+    height: 60px;
+    background-color: #16A085;
+    margin-left: 0;
+    border: none;
+    position: relative;
+    top: 2px;
+    right: 4px;
+    cursor: pointer;
+}
+/* END Livello -------------- */
 
 
 
@@ -299,6 +420,11 @@ li {
     .design_text {
         order: -1;
     }
+
+    .Livello {
+        background-position: center;
+        padding-top: 50%;
+    }
 }
 
 @media screen and (min-width: 451px) and (max-width: 600px) {
@@ -343,6 +469,15 @@ li {
 
     .design_text {
         order: -1;
+    }
+
+    .Livello {
+        background-position: center;
+    }
+
+    .Livello h2 {
+        width: 60%;
+        margin: 0 auto;
     }
 }
 
